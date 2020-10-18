@@ -26,5 +26,6 @@ dkms install rtl8812au/4.3.8.12175.20140902+dfsg -k "$(uname -r)/$(uname -p)"
 
 ### Enable
 ```bash
-sudo modprobe 8812au
+modprobe -r 8812au
+modprobe 8812au
 ```
