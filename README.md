@@ -18,7 +18,7 @@ MAKE="'make' all KVER=${kernelver}"
 ```
 
 ### Remove & Build & Install
-``bash
+```bash
 dkms remove rtl8812au/4.3.8.12175.20140902+dfsg -k "$(uname -r)/$(uname -p)"  
 dkms build rtl8812au/4.3.8.12175.20140902+dfsg -k "$(uname -r)/$(uname -p)"  
 dkms install rtl8812au/4.3.8.12175.20140902+dfsg -k "$(uname -r)/$(uname -p)"
