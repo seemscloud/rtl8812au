@@ -4,7 +4,7 @@
 
 ### Edit File
 ```bash
-vi /usr/src/rtl8812au-4.3.8.12175.20140902+dfsg/dkms.conf
+/usr/src/rtl8812au-4.3.8.12175.20140902+dfsg/dkms.conf
 ```
 
 ### Change Line
