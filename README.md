@@ -1,6 +1,24 @@
 # rtl8812au
 
-## How To
+## AirCrack-NG 
+
+### Clone Git Repository
+```bash
+https://github.com/aircrack-ng/rtl8812au
+```
+
+### Compile & Install
+```bash
+make 
+make install 
+```
+
+### Enable Module
+```
+modprobe 88XXau
+```
+
+## From DKMS
 
 ### Edit File
 ```bash
